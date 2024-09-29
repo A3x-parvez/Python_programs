@@ -16,5 +16,6 @@ def captcha_image(captcha_text,image_width=300):
 captcha_text = captcha_image_text()
 image_file = captcha_image(captcha_text=captcha_text)
 
+# file added
 print(f"Generated Captcha")
 Image.open(image_file)
